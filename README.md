@@ -1,0 +1,2 @@
+# bitm
+my simple resume
