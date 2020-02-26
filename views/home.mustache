@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>head}}
+</head>
+
+<body>
+    <div id="vertex-container" class="wrapper">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" style="border-radius:90%" src="https://media-exp1.licdn.com/dms/image/C5603AQFC2UFLTdkaoA/profile-displayphoto-shrink_200_200/0?e=1588204800&v=beta&t=C_fDqCFe4Lu3YU6zedeSGp-KJ4QCVnMhMUOmk-xoUQo" alt="Biksah Thapa" />
+                <h1 class="name">{{page.firstName}} {{page.lastName}}</h1>
+                <h3 class="tagline">{{page.occupation}}</h3>
+            </div>
+
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fas fa-envelope"></i><a href="mailto: {{page.email}}">{{page.email}}</a></li>
+
+                    <!-- <li class="website"><i class="fas fa-globe"></i><a href="https://www.google.com" target="_blank">google.com</a></li> -->
+
+                    <li class="linkedin"><i class="fab fa-linkedin-in"></i><a href="{{page.linkedin_link}}" target="_blank">{{page.linkedin_username}}</a></li>
+
+                    <li class="github"><i class="fab fa-github"></i><a href="{{page.github_link}}" target="_blank">{{page.github_username}}</a></li>
+
+                    <li class="twitter"><i class="fab fa-twitter"></i><a href="{{page.twitter_link}}" target="_blank">{{page.twitter_username}}</a></li>
+
+                    <!-- <li class="dribble"><i class="fab fa-dribbble"></i><a href="https://www.dribbble.com/" target="_blank">my_dribbble_username</a></li> -->
+
+                    <!-- <li class="youtube"><i class="fab fa-youtube"></i><a href="https://www.youtube.com/" target="_blank">my_youtube_username</a></li> -->
+
+                    <li class="instagram"><i class="fab fa-instagram"></i><a href="{{page.instagram_link}}" target="_blank">{{page.instagram_username}}</a></li>
+
+                    <!-- <li class="pinterest"><i class="fab fa-pinterest"></i><a href="https://www.pinterest.com/" target="_blank">my_pinterest_username</a></li> -->
+                </ul>
+            </div>
+
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+
+                <div class="item">
+                    <h4 class="degree">{{page.education.university}}</h4>
+                    <h5 class="meta">{{page.education.major}}</h5>
+                    <div class="time">{{page.education.duration}}</div>
+                </div>
+            </div>
+
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Honors</h2>
+                <ul id="interests-list" class="list-unstyled interests-list">
+                    <li>{{page.honors.h1}}</li>
+                    <li><a href="http://usefnepal.org/opportunity/" target="_blank">{{page.honors.h2}}</a></li>
+                </ul>
+            </div>
+
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Courses</h2>
+                <ul id="interests-list" class="list-unstyled interests-list">
+                    <li>{{page.courses.c1}}</li>
+                    <li>{{page.courses.c2}}</li>
+                    <li>{{page.courses.c3}}</li>
+                    <li>{{page.courses.c4}}</li>
+                    <li>{{page.courses.c5}}</li>
+                    <li>{{page.courses.c6}}</li>
+                </ul>
+            </div>
+
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul id="interests-list" class="list-unstyled interests-list">
+                    <li>{{page.interests.i1}}</li>
+                    <li>{{page.interests.i2}}</li>
+                    <li>{{page.interests.i3}}</li>
+                    <li>{{page.interests.i4}}</li>
+                    <li>{{page.interests.i5}}</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="main-wrapper">
+
+            <section id="section_1" class="section summary-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>{{page.section_1.header}}</h2>
+                <div class="summary">
+                    <p>{{page.section_1.content}}</p>
+                </div>
+            </section>
+
+            <section id="section_2" class="section projects-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive fas"></i></span>{{page.section_2.header}}</h2>
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">{{page.section_2.project1.title}}</h3>
+                            <div class="time">{{page.section_2.project1.duration}}</div>
+                        </div>
+                        <div class="company">{{page.section_2.project1.subtitle}}</div>
+                    </div>
+                    <div class="details">
+                        <p>{{page.section_2.project1.content}} <a href="{{page.section_2.project1.link}}" target="_blank"> <br>Link</a> to paper.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">{{page.section_2.project2.title}}</h3>
+                            <div class="time">{{page.section_2.project2.duration}}</div>
+                        </div>
+                        <div class="company">{{page.section_2.project2.subtitle}}</div>
+                    </div>
+                    <div class="details">
+                        <p>{{page.section_2.project2.content}}</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">{{page.section_2.project3.title}}</h3>
+                            <div class="time">{{page.section_2.project3.duration}}</div>
+                        </div>
+                        <div class="company">{{page.section_2.project3.subtitle}}</div>
+                    </div>
+                    <div class="details">
+                        <p>{{page.section_2.project3.content}} <a href="{{page.section_2.project3.link}}" target="_blank"> <br>Link</a> to paper.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">{{page.section_2.project4.title}}</h3>
+                            <div class="time">{{page.section_2.project4.duration}}</div>
+                        </div>
+                        <div class="company">{{page.section_2.project4.subtitle}}</div>
+                    </div>
+                    <div class="details">
+                        <p>{{page.section_2.project4.content}}</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section_3" class="section projects-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>{{page.section_3.header}}</h2>
+                <!-- <div class="intro">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nescio quo modo praetervolavit oratio. Nam si beatus umquam fuisset, beatam vitam usque ad illum a Cyro extructum rogum pertulisset. Quod ea non occurrentia fingunt, vincunt Aristonem; Qua tu etiam inprudens utebare non numquam.</p>
+                </div> -->
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">{{page.section_3.work1.title}}</h3>
+                            <div class="time">{{page.section_3.work1.duration}}</div>
+                        </div>
+                        <div class="company">{{page.section_3.work1.subtitle}}</div>
+                    </div>
+                    <div class="details">
+                        <p>{{page.section_3.work1.content}}</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">{{page.section_3.work2.title}}</h3>
+                            <div class="time">{{page.section_3.work2.duration}}</div>
+                        </div>
+                        <div class="company">{{page.section_3.work2.subtitle}}</div>
+                    </div>
+                    <div class="details">
+                        <p>{{page.section_3.work2.content}}</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">{{page.section_3.work3.title}}</h3>
+                            <div class="time">{{page.section_3.work3.duration}}</div>
+                        </div>
+                        <div class="company">{{page.section_3.work3.subtitle}}</div>
+                    </div>
+                    <div class="details">
+                        <p>{{page.section_3.work3.content}}</p>
+                    </div>
+                </div>
+            </section>
+
+<!-- References Section -->
+            <!-- <section id="section_4" class="section projects-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-comment"></i></span>References</h2>
+
+                <div class="item" style="margin-bottom:35px">
+                    <div class="meta">
+                        <img style="float:right;border-radius:50%" src="https://lh3.googleusercontent.com/VlNcZ3tfiECngbAGpvYVSKQCe16zXLUtL7PLgb1QEY1smeS9adz9iMMCQBxRN7tMsngGvpVzRVxTb1KIDdE7rI_jzA=s68-c" />
+                        <div class="upper-row">
+                            <h3 class="job-title">Bobby Kennedy</h3>
+                        </div>
+                        <div class="company">Personal</div>
+                    </div>
+                    <div class="details">
+                        <p>He was a good older brother. Always helped me with my homework in high school. Appointed me Attorney General in 1961.</p>
+                    </div>
+                </div>
+            </section> -->
+
+            <section id="section_5" class="skills-section section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Skills &amp; Proficiency</h2>
+                <div id="skillset-container" class="skillset">
+                    <div class="item">
+                        <h3 class="level-title">{{page.section_4.cpp}}</h3>
+                        <div class="progress level-bar">
+                        <div class="progress-bar theme-progress-bar" role="progressbar" style="width: {{page.section_4.cpp_val}}%" aria-valuenow="{{page.section_4.cpp_val}}" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">{{page.section_4.python}}</h3>
+                        <div class="progress level-bar">
+                        <div class="progress-bar theme-progress-bar" role="progressbar" style="width: {{page.section_4.python_val}}%" aria-valuenow="{{page.section_4.python_val}}" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">{{page.section_4.java}}</h3>
+                        <div class="progress level-bar">
+                        <div class="progress-bar theme-progress-bar" role="progressbar" style="width: {{page.section_4.java_val}}%" aria-valuenow="{{page.section_4.java_val}}" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">{{page.section_4.javascript}}</h3>
+                        <div class="progress level-bar">
+                        <div class="progress-bar theme-progress-bar" role="progressbar" style="width: {{page.section_4.javascript_val}}%" aria-valuenow="{{page.section_4.javascript_val}}" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">{{page.section_4.htmlcss}}</h3>
+                        <div class="progress level-bar">
+                        <div class="progress-bar theme-progress-bar" role="progressbar" style="width: {{page.section_4.htmlcss_val}}%" aria-valuenow="{{page.section_4.htmlcss_val}}" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">{{page.section_4.webdev}}</h3>
+                        <div class="progress level-bar">
+                        <div class="progress-bar theme-progress-bar" role="progressbar" style="width: {{page.section_4.webdev_val}}%" aria-valuenow="{{page.section_4.webdev_val}}" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">{{page.section_4.pytorch}}</h3>
+                        <div class="progress level-bar">
+                        <div class="progress-bar theme-progress-bar" role="progressbar" style="width: {{page.section_4.pytorch_val}}%" aria-valuenow="{{page.section_4.pytorch_val}}" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">{{page.section_4.github}}</h3>
+                        <div class="progress level-bar">
+                        <div class="progress-bar theme-progress-bar" role="progressbar" style="width: {{page.section_4.github_val}}%" aria-valuenow="{{page.section_4.github_val}}" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">{{page.section_4.unix}}</h3>
+                        <div class="progress level-bar">
+                        <div class="progress-bar theme-progress-bar" role="progressbar" style="width: {{page.section_4.unix_val}}%" aria-valuenow="{{page.section_4.unix_val}}" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">{{page.section_4.latex}}</h3>
+                        <div class="progress level-bar">
+                        <div class="progress-bar theme-progress-bar" role="progressbar" style="width: {{page.section_4.latex_val}}%" aria-valuenow="{{page.section_4.latex_val}}" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    {{>footer}}
+
+    <script>window.__PRELOADED__ = {}</script>
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/mustache.min.js"></script>
+    <script type="text/javascript" src="/js/home.js"></script>
+</body>
+</html>

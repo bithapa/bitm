@@ -1,0 +1,117 @@
+{
+    "firstName": "Bikash",
+    "lastName": "Thapa",
+    "occupation":"Software Developer",
+    "email": "bthapa01@student.ysu.edu",
+    "linkedin_username": "bikash-thapa",
+    "linkedin_link": "https://www.linkedin.com/in/bikash-thapa-a547a013b/",
+    "github_username": "bithapa",
+    "github_link": "https://github.com/bithapa",
+    "twitter_username": "bikashisbikash",
+    "twitter_link": "https://twitter.com/bikashisbikash",
+    "instagram_username": "bikashisbikash",
+    "instagram_link": "https://instagram.com/bikashisbikash",
+    "education": {
+        "university": "Youngstown State University",
+        "major": "Computer Science & Mathematics",
+        "duration": "Class of 2021 (Spring)"
+    },
+    "honors": {
+        "h1": "Leslie H. Cochran University Scholarship (full ride) at YSU",
+        "h2": "Opportunity Funding Participants 2016 at USEF Nepal"
+    },
+    "interests": {
+        "i1": "Software development",
+        "i2": "Technology",
+        "i3": "Reading",
+        "i4": "Drawing",
+        "i5": "Volleyball"
+    },
+    "courses": {
+        "c1": "Data Structures & Algorithms",
+        "c2": "Object Oriented Programming",
+        "c3": "Software Engineering",
+        "c4": "Computer Architecture",
+        "c5": "AI in Game Design",
+        "c6": "Mathematical Modeling"
+    },
+    "section_1": {
+        "header": "About Me",
+        "content": "Hello! I am Bikash. I am a technology enthusiast who loves problem solving, software development, and data analysis. At my current university, I have done projects related to web development, math modeling, and research on big data with neural network. I am constantly learning about the state-of-the-art technologies and am ready to implement my skills in the real world."
+    },
+    "section_2": {
+        "header": "Projects & Research",
+        "project1": {
+            "title": "Group Affinity and Fashion Sense",
+            "subtitle": "SCUDEM Math Modeling Contest, Slippery Rock University",
+            "duration": "October 2019",
+            "content": "Secured first position in tri-universities math modeling contest; Collaborated in a group of three; Researched, designed, and presented a mathematical model using differential equations to illustrate how the information flows and interacts within the different groups of society.",
+            "link": "https://github.com/bithapa/files/blob/master/The_Hipster_Effect.pdf"
+        },
+        "project2": {
+            "title": "Secure and Private AI with Deep Learning",
+            "subtitle": "Online study scholarship from Facebook & Udacity",
+            "duration": "Jun 2019 - August 2019",
+            "content": "Participated in 3 months long online scholarship program with Facebook and Udacity on the theoretical and mathematical background behind Deep Learning, Differential Privacy, & Encrypted Deep Learning (taught by Andrew Trask); Worked on the MNIST datasets' classification problem using neural networks with the python libraries PyTorch and PySyft.",
+            "link": ""
+        },
+        "project3": {
+            "title": "Deep Learning & NLP",
+            "subtitle": "Research | YSU Department of CSIS",
+            "duration": "Jan 2019 -July 2019",
+            "content": "Research in a group of 3 alongside professor Dr. Alina Lazar of YSU on multi-level text classification on stack-overflow data (tag prediction); Used multi-layered neural networks and word embeddings to predict the tags of stack-overflow questions; Achieved 88% of accuracy; Methods/Technologies: Python, NLTK, openpyxl, fasttext.",
+            "link": "https://github.com/bithapa/files/blob/master/Extreme_Classification_for_StackOverflow.pdf"
+        },
+        "project4": {
+            "title": "Youngstown Snow Plow",
+            "subtitle": "PIC Math Research with the city of Youngstown and YSU",
+            "duration": "Jan 2019 - April 2019",
+            "content": "Successfully collaborated with the city of Youngstown in a team of 5 students to improve the snow-plowing road networks of the Youngstown using the ArcGIS software and the Youngstown's geo datasets. (Support for this Mathematical Association of America (MAA) program was provided by the National Science Foundation (NSF grant DMS-1722275) and the National Security Agency (NSA))",
+            "link": ""
+        }
+    },
+    "section_3": {
+        "header": "Work Experiences",
+        "work1": {
+            "title": "Tech Support Intern",
+            "subtitle": "Turning Technologies LLC, Youngstown, OH",
+            "duration": "August 2019 - October 2019",
+            "content": "Worked with the Tech Support team on resolving the client's technical issues; Analyzed, resolved, and documented the multiple issues of the polling system softwares and tools developed by the company."
+        },
+        "work2": {
+            "title": "Student Office Assistant",
+            "subtitle": "YSU International Center",
+            "duration": "Dec 2017 - Present",
+            "content": "Professionally help the visitors of International center at YSU; Run the clerical tasks such as receiving phone calls, filing documents & communicating with the prospective international students from all around the world."
+        },
+        "work3": {
+            "title": "President",
+            "subtitle": "Nepalese Student Association of YSU",
+            "duration": "August 2018 - April 2019",
+            "content": "Planned & Organized cultural events at YSU such as Dashain & Festival of Color (first time at YSU), which were attended by 400+ participants (students and the community combined)."
+        }
+    },
+    "section_4": {
+        "header": "Skills & Proficiency",
+        "cpp": "C++",
+        "cpp_val": 85,
+        "python": "Python",
+        "python_val": 80,
+        "java": "Java",
+        "java_val": 70,
+        "javascript": "JavaScript",
+        "javascript_val": 75,
+        "htmlcss": "HTML/CSS",
+        "htmlcss_val": 75,
+        "webdev": "NodeJS/Express/MongoDB",
+        "webdev_val": 78,
+        "pytorch": "PyTorch",
+        "pytorch_val": 70,
+        "github": "GitHub",
+        "github_val": 90,
+        "unix": "UNIX",
+        "unix_val": 65,
+        "latex": "LaTex",
+        "latex_val": 90
+    }
+}
