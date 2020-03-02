@@ -75,6 +75,13 @@
             "duration": "Jan 2019 - Apr 2019",
             "content": "Successfully collaborated with the city of Youngstown in a team of 5 students to improve the snow-plowing road networks of the Youngstown using the ArcGIS software and the Youngstown's geo datasets. (Support for this Mathematical Association of America (MAA) program was provided by the National Science Foundation (NSF grant DMS-1722275) and the National Security Agency (NSA))",
             "link": ""
+        },
+        "project5": {
+            "title": "BitChat",
+            "subtitle": "Chat Application with NodeJS, Express, and Socket.io",
+            "duration": "Dec 2019",
+            "content": "Designed and deveoped an online real-time chatting application called BitChat using NodeJS, Express, and Socket.io; Implemented web Socket protocol to allow multiusers full duplex communication; Used Mustache for dynamic data rendering; Other technologies used include MomentJS, MDN Geolocation API (for sharing location), and qsJS.",
+            "link": "https://bitchat.herokuapp.com/"
         }
     },
     "section_3": {
